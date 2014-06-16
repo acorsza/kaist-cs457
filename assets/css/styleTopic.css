@@ -1,0 +1,247 @@
+.cnt-search{
+	width: 940px;
+	margin-top: 50px;
+}
+
+.cnt-all{
+	width: 1250px;
+	margin-top: 40px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.cnt-user{
+	border: 1px #ddd solid;
+	width: 100px;
+	height: 140px;
+	padding: 0px;
+	float:left;
+	position: relative;
+}
+
+.img-user-ans{
+	border-radius: 70px;
+	margin-left: 13px;
+	margin-top: 10px;
+}
+
+.cnt-topic{
+	width:830px;
+	margin-left: 10px;
+	min-height: 140px;
+	float:left;
+	position: relative;
+}
+
+.cnt-rat-btns{
+	border: 1px #ddd solid;
+	text-align: center;
+	width: 80px;
+	height: 140px;
+	margin-left: 11px;
+	border-radius: 4px;
+	float:left;
+	position: relative;
+}
+
+.cnt-rel-topics{
+	border: 1px #ddd solid;
+	width: 250px;
+	min-height: 300px;
+	margin-top: 40px;
+	margin-left: 40px;
+	border-radius: 4px;
+	float: right;
+}
+
+.el-align-left{
+	margin-left: 70px;
+}
+
+.tb-ctg{
+	margin-top: 10px;
+}
+
+/* parent container to displays nodes of post and answers*/
+.cnt-center-content{
+	margin-top:30px;
+	float: left;
+	position: relative;
+}
+
+/* parent container to displays nodes of post and answers*/
+.cnt-right-content{
+	margin-top:30px;
+	float: right;
+	position: relative;
+}
+/*node represents the container to the topic and each answer to the post*/
+.node{
+	width: 950px;
+	height: 160px;
+}
+
+.div-answer{
+	min-height: 175px;
+	margin-top: 1px;
+	margin-bottom: 100px;
+}
+
+.answerbox{
+	border:1px solid #d1c7ac;
+	border-radius: 4px;
+	width: 830px;
+	min-height: 140px;
+	max-height: 288px;
+	color:#333333;
+	padding:3px;
+	margin-left:110px;
+	margin-bottom:5px;
+	margin-top: 40px;
+	font-family:tahoma, arial, sans-serif;
+	max-width: 830px;
+	overflow-y: scroll;
+	position: relative;
+}
+
+.bnt-answer{
+	clear: both;
+	margin-left: 680px;
+	width:150px;
+	height:40px;
+	position:absolute;
+	display: inline-block;
+	margin-bottom: 0;
+	margin-top: 2px;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	/*white-space: nowrap;
+	padding: 10px 16px;*/
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 5px;
+}
+
+.label-answer{
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-weight: 400;
+	color: #5a5a5a;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+hr#lineEnd {
+	border: 0;
+	height: 12px;
+	box-shadow: inset 0 12px 11px -12px #CCC;
+}
+
+
+h3 .specif-header{
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+
+.reply-box {
+	width:740px;
+	min-height: 140px;
+	margin-left: 11px;
+	background: #FFF;
+	border: 1px solid #ddd;
+	float:left;
+	position: relative;
+}
+
+#topicDesc{
+	min-height: 112px;
+	padding-left: 10px;
+
+}
+
+.reply-box:after, .reply-box:before {
+	right: 100%;
+	top: 25%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.reply-box:after {
+	border-color: rgba(213, 100, 205, 0);
+	border-right-color: #FFF;
+	border-width: 8px;
+	margin-top: -8px;
+}
+
+.reply-box:before {
+	border-color: rgba(221, 221, 221, 0);
+	border-right-color: #ddd;
+	border-width: 9px;
+	margin-top: -9px;
+}
+
+.weather-map{
+	width: 250px;
+	height: 200px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+.images-preview img{
+	margin-right: 5px;
+	margin-top: 10px;
+	width:100px;
+	height: 100px;
+	border-radius: 10px;
+}
+
+.btn-footer{
+	margin-left: 110px;
+	margin-top: 5px;
+	margin-top: 3px;
+}
+
+.attached-images{
+	margin-top: 15px;
+	margin-left: 0px;
+	margin-right: 5px;
+	width: 90px;
+	height: 90px;
+	border-radius: 10px;
+	position: relative;
+}
+
+.attached-images:hover{
+	-webkit-box-shadow: 0 0 12px #00BFFF, inset 0 0 12px #1E90FF;
+	-moz-box-shadow: 0 0 12px #00BFFF, inset 0 0 12px #1E90FF;
+	box-shadow: 0 0 12px #00BFFF, inset 0 0 12px #1E90FF;
+}
+
+.reply-footer, .topic-footer{
+	text-align: right;
+	padding-bottom:2px;
+	padding-right:8px;
+}
+.reply-footer hr, .topic-footer hr{
+	margin-bottom: 2px;
+	margin-top: 0px;
+}
+.reply-footer p, .topic-footer p{
+	margin-bottom: 0px;
+	font-size: 13px;
+}
+
+.content-related-topics{
+	margin-left: 15px;
+	margin-top: 10px;
+}

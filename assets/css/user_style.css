@@ -1,0 +1,131 @@
+.heading{
+	width: 600px;
+	margin-left: 430px;
+	margin-top: 25px;
+}
+
+
+.cnt-center-user{
+	border: 1px #ddd solid;
+	border-radius: 10px;
+	width: 500px;
+	height: 464px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 100px;
+
+}
+
+.cnt-center-user2{
+	margin-top: 20px;
+	position: absolute;
+    left: 50%;
+    margin-left: -175px;
+}
+
+.img-prof-user{
+  border-radius: 70px;
+}
+
+.img-pos{
+  text-align: center;
+}
+
+.loader{
+  text-align: center;
+  display: none;
+  margin-top: 15px;
+}
+
+.info-pos{
+	margin-top: 30px;
+	text-align: center;
+}
+
+
+/*Override bootstrap style*/
+.replace-width{
+	width: 350px;
+}
+
+div .img-pos h4{
+	margin-top: 15px;
+}
+
+.img-upload{
+	position: absolute;
+	margin-left: -110px;
+	margin-top: 25px;
+	visibility: hidden;
+}
+
+
+.mask:hover {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 10px 6px rgba(16, 216, 252, 0.8);
+  -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 10px 6px rgba(16, 216, 252, 0.8);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 10px 6px rgba(16, 216, 252, 0.8);
+  border-radius: 100px;
+}
+
+.bnt-save{
+	background-color: #428BCA;
+	color: white;
+	margin-top: 25px;
+	width: 130px;
+}
+
+.bnt-save:hover{
+	background-color: #39B3D7;
+	color: white;
+}
+
+.bnt-cancel{
+	background-color: #428BCA;
+	color: white;
+	margin-top: 25px;
+	width: 130px;
+	margin-left: 5px;
+}
+
+.bnt-cancel:hover{
+	background-color: #39B3D7;
+	color: white;
+}
+
+.mask{
+	width: 140px;
+	height: 140px;
+	float: left;
+	position: relative;
+	margin-top: -189px;
+	margin-left: 105px;
+	border-radius: 70px;
+}
+
+.msg-sucsess{
+	background-color: #66FF66;
+	margin-top: 411px;
+	width: 501px;
+	margin-left: -1px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	position: relative;
+	opacity: 0;
+	text-align: center;
+}
+
+.msg-danger{
+	/*background-color: #FF0033; */
+	margin-top: -72px;
+	width: 501px;
+	margin-left: -1px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	position: relative;
+	opacity: 0;
+	text-align: center;
+
+}

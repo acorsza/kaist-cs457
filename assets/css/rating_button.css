@@ -1,0 +1,115 @@
+/* -------------------------------------------------------
+
+	Description: CSS3 Circle Social bnt-rate
+	Version: 1.0
+	Author: Anli Zaimi
+	Author URI: http://azmind.com
+
+------------------------------------------------------- */
+
+
+
+.bnt-rate {
+	margin-top: 26px;
+}
+
+.bnt-rate div {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: relative;
+	line-height: 64px;
+	background-color: #fff;
+	-moz-border-radius: 32px;
+	-webkit-border-radius: 32px;
+	border-radius: 32px;
+}
+
+.bnt-rate div:active {
+	top: 1px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#FFFFFF));
+	background-image: -webkit-linear-gradient(top, #eaeaea, #FFFFFF);
+	background-image: -moz-linear-gradient(top, #eaeaea, #FFFFFF); 
+	background-image: -ms-linear-gradient(top, #eaeaea, #FFFFFF); 
+	background-image: -o-linear-gradient(top, #eaeaea, #FFFFFF);
+	background-image: linear-gradient(top, #eaeaea, #FFFFFF);
+}
+
+.bnt-rate div::before{
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: -8px;
+		right: -8px;
+		bottom: -8px;
+		left: -8px;
+		background-color:#E5E5E5;
+		-moz-border-radius: 140px;
+		-webkit-border-radius: 140px;
+		border-radius: 140px;
+	opacity: 0.5;		
+}
+
+.bnt-rate div:active::before {
+	top: -9px;
+}
+
+.bnt-rate div:hover::before { opacity: 1; }
+
+.bnt-rate div.twitter:hover::before {
+	background-color: #c6f0f8;
+}
+
+.bnt-rate div.hubstyle:hover::before {
+	background-color: #00BFFF;
+}
+
+.bnt-rate div.dribble:hover::before {
+	background-color: #fadae6;
+}
+
+.bnt-rate div.rss:hover::before {
+	background-color: #f8ebb6;
+}
+
+.twitter img { vertical-align: -7px; }
+.dribble img { vertical-align: -12px; }
+.hubstyle img { vertical-align: 0px; margin-left: 6px;}
+.rss img { vertical-align: -7px;}
+
+.bnt-rate div img { border: 0; }
+
+
+.footer {
+	width: 600px;
+	margin: auto;
+	margin-top: 100px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #cdcdcd;
+	text-shadow: 1px 2px 0 #fff;
+}
+
+.footer div { color: #bebebe; text-decoration: none; }
+.footer div:hover { color: #bebebe; text-decoration: none; border-bottom: 1px dashed #cdcdcd; }
+
+
+.bnt-text{
+	font-family: Calibri;
+	color: #919191;
+	font-weight: bold;
+	font-size: 35px;
+	float: left;
+	position: relative;
+	margin-top: -10px;
+	margin-left: 6px;"
+}
+
+.count-text{
+	margin-top: 4px;
+	font-family: Calibri;
+	font-size: 25px;
+	color:#00BFFF;
+	font-weight:bold;
+	text-align: center;
+}

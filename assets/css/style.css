@@ -1,0 +1,414 @@
+body {
+    padding-bottom: 20px;
+    padding-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*Override bootstrap style*/
+.menu{
+  background-color: #428BCA;
+  border-color: #428BCA;
+}
+.menu:after{
+  background-color: #428BCA;
+  border-color: #428BCA;
+}
+
+.menu:hover{
+  background-color: #39B3D7;
+  border-color: #39B3D7;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar-inverse {
+	background-color: black;
+}
+
+.white-background {
+  background-color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+	font-size: 34px;
+  font-family: 'Sansita One', cursive;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: white;
+}
+
+.navbar{
+  min-height: 50px;
+}
+
+.answerFeed{
+  background-color:#D2322D;
+  color:white;
+  border-width: 1px;
+  border-radius: 70px;
+  width: 20px;
+  margin-left: -21px;
+  margin-top: -7px;
+  position: absolute;
+  text-align: center;
+  z-index:1000;
+}
+
+.navbar-brand {
+  line-height: 18px;
+  padding-left: 44px;
+  font-size: 40px !important;
+}
+
+.jumbotron {
+	background-image: url("../media/background2.jpg");
+}
+
+.jumbotron h1,h2,h3,h4,h5,h6 {
+  font-family: 'Sansita One', cursive;
+}
+
+.jumbotron h1 {
+	color: #ffffff;
+	font-size: 60px;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+}
+
+.jumbotron p {
+  font-family: 'Sansita One', cursive;
+	color: #ffffff;
+	font-size: 24px;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+}
+
+.list-group-item {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+
+.texto-left {
+	float: left;
+	padding: 5px;
+}
+
+.texto-right {
+	float: right;
+	padding: 5px;
+	margin: 0px;
+}
+
+.paddingTop {
+  padding-top: 11px;
+}
+
+.padding-7px {
+	padding-right: 7px;
+}
+
+.createPost {
+	padding: 30px;
+	margin-bottom: 30px;
+	color: inherit;
+	background-color: #eee;
+}
+
+.aboutPage {
+
+}
+
+.background-null {
+	background-color: #fff;
+}
+
+.logout a{
+  color: #8F0000;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.post-show {
+  width: 60%;
+}
+
+.dateTopic {
+  color: #000;
+  font-size: 11px;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container{
+  width: 100%;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #39B3D7;
+    font-size: 20px;
+    color: #39B3D7;
+    background: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #39B3D7;
+    color: #fff;
+    background: #39B3D7;
+}
+
+.workers{
+  margin-top: 50px;
+  margin-bottom: 500px;
+}
+
+.subtitle-about{
+  margin-left: 30px;
+}
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #eee;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+}
+
+.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+}
+
+.floating-label-form-group::not(:first-child) {
+    padding-left: 14px;
+    border-left: 1px solid #eee;
+}
+
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+    color: #428BCA;
+}
+
+.floating-label-form-group-with-focus label {
+    color: #18bc9c;
+}
+
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #eee;
+}
+
+#contact{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.title-contact{
+  margin-bottom: 40px;
+}
+
+.make-contact{
+  width: 150px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left:  15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left:  0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 40px;
+    margin-left: 30px
+  }
+}

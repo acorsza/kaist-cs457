@@ -1,0 +1,13 @@
+.el-align-left{
+	margin-left: 70px;
+}
+
+.cnt-center-content{
+	margin-top:30px;
+	float: left;
+	position: relative;
+}
+
+.no-result-daej, .no-result-goog{
+	font-weight: bold;
+}
